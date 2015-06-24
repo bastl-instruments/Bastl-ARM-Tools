@@ -30,6 +30,14 @@
 
 Start Eclipse and select the workspace you want to work in
 
+### Save before build
+`Window > Preferences > General > Workspace`
+
+### Build shortcuts
+`Window > Preferences > General > Keys`
+`Ctrl + Alt + B` Build All
+`Ctrl + B` Build Project
+
 ### Showing Peripheral Registers in Debug Perspective
 * Set up path where you want to store the downloaded hardware description files in `Windows > Preferences > C/C++ > Packages`
 * Switch to Packs-View and refresh
@@ -46,4 +54,7 @@ The content of this repository need to be placed inside your workspace in a fold
 
 Select the Wizard: `New > C Project > STM32XX...` and follow the instructions
 You now upload the hex file by selecting the active project and then clicking on external tools or debug it by clicking on the debug button
+
+Select device description files to be able to see peripheral registers when debugging:
+`Project Properties > C/C++ Build > Settings > Devices`
 
